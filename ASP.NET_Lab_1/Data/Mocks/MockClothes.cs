@@ -21,6 +21,12 @@ namespace ASP.NET_Lab_1.Data.Mocks
                     new Clothes {
                         Id = 1, 
                         Img = "https://sneakerstudio.com.ua/rus_pm_MUZHSKAIA-FUTBOLKA-adidas-Originals-Adicolor-Classics-3-Stripes-Tee-GN3495-37717_3.jpg",
+                        Name = "Black adidas T-shirt",
+                        Description = "Manufacturer: adidas Originals\r\n"
+                        + "Model: Adicolor Classics 3-Stripes Tee\r\n"
+                        + "Article number: GN3495\r\n"
+                        + "Material: 100% cotton\r\n"
+                        + "Color: black / white",
                         CategoryId = 2, Category = _categoryClothes.AllCategories.ElementAt(1),
                         CompanyId = 1, Company = _companyClothes.AllCompanies.ElementAt(0),
                         TypeId = 1, Type = _typeClothes.AllTypes.ElementAt(0),
@@ -31,6 +37,11 @@ namespace ASP.NET_Lab_1.Data.Mocks
                     new Clothes {
                         Id = 2,
                         Img = "https://evikakids.com/ru/1673/yubka-krasnaya-iz-plotnogo-riflenogo-khlopka.jpg",
+                        Name = "Red skirt made of dense corrugated cotton",
+                        Description = "Red skirt made of dense corrugated cotton. It will look great with a blouse, and with a turtleneck, and with a sweater.\r\n"
+                        + "- waistband with elastic at the back\r\n"
+                        + "- no lining\r\n"
+                        + "Made in Spain.",
                         CategoryId = 1, Category = _categoryClothes.AllCategories.ElementAt(0),
                         CompanyId = 6, Company = _companyClothes.AllCompanies.ElementAt(5),
                         TypeId = 9, Type = _typeClothes.AllTypes.ElementAt(8),
@@ -41,6 +52,8 @@ namespace ASP.NET_Lab_1.Data.Mocks
                     new Clothes {
                         Id = 3,
                         Img = "https://media2.symbol.ua/aio-images/e7/74/e7749d6aeb8bc577477dfb1bc4870bfe/e7a5b8c2-9378-468d-88e6-c473be2d804f.jpg",
+                        Name = "Black dress",
+                        Description = "Black dress with an open back",
                         CategoryId = 3, Category = _categoryClothes.AllCategories.ElementAt(2),
                         CompanyId = 4, Company = _companyClothes.AllCompanies.ElementAt(3),
                         TypeId = 4, Type = _typeClothes.AllTypes.ElementAt(3),

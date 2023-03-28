@@ -6,6 +6,8 @@ namespace ASP.NET_Lab_1.Data.Models
     {
         public int Id { get; set; }
         public string Img { get; set; }
+        public string Name { get; set; }
+        public string Description { get; set; }
         public int CategoryId { get; set; } // Категорія одягу (для дітей/чоловіків/жінок)
         public int CompanyId { get; set; }
         public int TypeId { get; set; } // Види одягу
